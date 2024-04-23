@@ -23,12 +23,12 @@ const multiply = function(array) {
   array.forEach(element => {
     product *= element;
   });
-    
+
   return product;
 };
 
-const power = function() {
-	
+const power = function(a, pow) {
+	return Math.pow(a, pow);
 };
 
 const factorial = function() {
