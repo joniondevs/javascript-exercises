@@ -17,8 +17,14 @@ const sum = function(array) {
   return sum;
 };
 
-const multiply = function() {
-
+const multiply = function(array) {
+  
+  let product = 1;
+  array.forEach(element => {
+    product *= element;
+  });
+    
+  return product;
 };
 
 const power = function() {
