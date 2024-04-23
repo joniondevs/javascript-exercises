@@ -2,8 +2,8 @@ const add = function(a, b) {
 	return parseInt(a) + parseInt(b);
 };
 
-const subtract = function() {
-	
+const subtract = function(a, b) {
+	return parseInt(a) - parseInt(b);
 };
 
 const sum = function() {
