@@ -31,8 +31,24 @@ const power = function(a, pow) {
 	return Math.pow(a, pow);
 };
 
-const factorial = function() {
-	
+const factorial = function(num) {
+	if(num < 0)
+  { 
+    return 0;
+  }
+  else if(num == 0 || num == 1)
+  {
+    return 1;
+  }else
+  {
+    let result = 1;
+    for(i = 1; i <= num; i++)
+    {
+      result *= i;
+    }
+
+    return result;
+  }
 };
 
 // Do not edit below this line
